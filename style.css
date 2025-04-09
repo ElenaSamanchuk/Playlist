@@ -246,8 +246,8 @@ canvas {
 
 @media (min-width: 640px) and (max-width: 1200px) {
     .container {
-        width: 90vw;
-        height: 90vh;
+        width: 80%;
+        height: 80%;
         flex-direction: column;
     }
 
