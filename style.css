@@ -22,7 +22,7 @@ body {
 .container {
     width: 80%;
     height: 70%;
-    border-radius: 25px;
+    border-radius: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -489,6 +489,7 @@ canvas {
     }
     
     .controls {
+        width: 50%;
         height: 10%;
         order: 1;
         position: relative;
