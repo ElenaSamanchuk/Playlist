@@ -22,7 +22,7 @@ body {
 .container {
     width: 80%;
     height: 70%;
-    border-radius: 40px;
+    border-radius: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +90,7 @@ body {
 }
 
 .controls {
-    width: 50%;
+    width: 40%;
     height: 10%;
     display: flex;
     align-items: center;
@@ -173,7 +173,7 @@ body {
 
 .singer {
     font-size: .9vw;
-    opacity: .5;
+    opacity: .8;
     color: #6EA6D2;
 }
 
