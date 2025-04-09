@@ -21,8 +21,8 @@ body {
 
 .container {
     width: 80%;
-    height: 80%;
-    border-radius: 30px;
+    height: 70%;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,7 +132,7 @@ body {
 .song {
     width: 70%;
     padding: 1vw;
-    border-radius: 1vw;
+    border-radius: .5vw;
     cursor: pointer;
     transition: .3s ease-in-out;
     display: flex;
@@ -142,7 +142,7 @@ body {
 }
 
 .song.active {
-    background: linear-gradient(90deg, #828fac, #828fac00);
+    background: linear-gradient(90deg, #6EA6D2, #6EA6D200);
     scale: 1.05;
 }
 
