@@ -500,7 +500,7 @@ canvas {
     .carousel {
         height: 45%;
         position: relative;
-        bottom: 3vw;
+        bottom: 1vw;
     }
 
     .timeControls {
