@@ -28,8 +28,8 @@ let dataArray = 0;
 const WIDTH = canvas.width;
 const HEIGHT = canvas.height;
 
-let array_title = ['Title1', 'Title2', 'Title3', 'Title4', 'Title5'];
-let array_singer = ['Singer1', 'Singer2', 'Singer3', 'Singer4', 'Singer5'];
+let array_title = ['Вступление', 'Для бодрого завтрака', 'Спокойный обед', 'Перекус без стресса', 'Медитативный ужин', 'Приятное послевкусие'];
+let array_singer = ['Grow Food x HolyMolly', 'Grow Food x HolyMolly', 'Grow Food x HolyMolly', 'Grow Food x HolyMolly', 'Grow Food x HolyMolly', 'Grow Food x HolyMolly'];
 function switch_track() {
     if (isPlay == true) {
         audio.play();
@@ -205,26 +205,26 @@ function draw() {
     let x = 0;
     for(let i = 0; i < bufferLength; i++) {
         barHeight = dataArray[i] / 2;
-        canvasCtx.fillStyle = `white`;
+        canvasCtx.fillStyle = `#6EA6D2`;
         canvasCtx.fillRect(WIDTH / 2 - x, HEIGHT / 2 - barHeight, barWidth, barHeight);
         x += barWidth;
     }
     for(let i = 0; i < bufferLength; i++) {
         barHeight = dataArray[i] / 2;
-        canvasCtx.fillStyle = `white`;
+        canvasCtx.fillStyle = `#6EA6D2`;
         canvasCtx.fillRect(x, HEIGHT / 2 - barHeight, barWidth, barHeight);
         x += barWidth;
     }
     x = 0;
     for(let i = 0; i < bufferLength; i++) {
         barHeight = dataArray[i] / 2;
-        canvasCtx.fillStyle = `white`;
+        canvasCtx.fillStyle = `#6EA6D2`;
         canvasCtx.fillRect(WIDTH / 2 - x, HEIGHT / 2, barWidth, barHeight);
         x += barWidth;
     }
     for(let i = 0; i < bufferLength; i++) {
         barHeight = dataArray[i] / 2;
-        canvasCtx.fillStyle = `white`;
+        canvasCtx.fillStyle = `#6EA6D2`;
         canvasCtx.fillRect(x, HEIGHT / 2, barWidth, barHeight);
         x += barWidth;
     }
