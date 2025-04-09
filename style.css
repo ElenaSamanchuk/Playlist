@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif !important;
 }
 
 body {
     -webkit-tap-highlight-color: transparent;
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #243355;
+    background-color: #24426F;
     user-select: none;
 }
 
@@ -23,7 +26,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #485d7ca1;
+    background-color: #6ea7d244;
     backdrop-filter: blur(1vw);
     padding: 1vw;
 }
