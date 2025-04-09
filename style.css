@@ -578,7 +578,7 @@ canvas {
 
 @media (hover: hover) {
     .song:hover {
-        background: linear-gradient(90deg, #828fac, #828fac00);
+        background: linear-gradient(90deg, #6EA6D2, #6EA6D200);
         scale: 1.05;
     }
 }
