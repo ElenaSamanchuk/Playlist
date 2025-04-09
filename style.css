@@ -500,7 +500,7 @@ canvas {
     .carousel {
         height: 45%;
         position: relative;
-        bottom: 1vw;
+        bottom: -1vw;
     }
 
     .timeControls {
@@ -515,8 +515,8 @@ canvas {
     }
 
     .carousel_img.active {
-        width: 30vw;
-        height: 30vw;
+        width: 35vw;
+        height: 35vw;
     }
 
     .song {
