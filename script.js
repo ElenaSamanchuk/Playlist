@@ -232,7 +232,7 @@ function draw() {
 }
 
 function layout() {
-    const xOffsetStep = 100;
+    const xOffsetStep = 170;
     const count = carousel_img.length;
     const scaleStep = 0.85;
     const opacityStep = 0.5;
