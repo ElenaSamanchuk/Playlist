@@ -21,7 +21,7 @@ body {
 
 .container {
     width: 80%;
-    height: 70%;
+    height: 72%;
     border-radius: 35px;
     display: flex;
     align-items: center;
@@ -263,7 +263,7 @@ canvas {
 @media (min-width: 640px) and (max-width: 1200px) {
     .container {
         width: 80%;
-        height: 82%;
+        height: 80%;
         flex-direction: column;
         justify-content: space-between;
     }
