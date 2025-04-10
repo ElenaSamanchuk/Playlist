@@ -273,6 +273,10 @@ canvas {
         width: 100%;
     }
 
+    .left {
+        height: 45%;
+    }
+
     .right {
         order: -1;
         height: 45%;
@@ -281,7 +285,7 @@ canvas {
 
     .block {
         display: inline-block;
-        height: 45%;
+        height: 35%;
         width: 100%;
         position: absolute;
         bottom: 0;
@@ -293,48 +297,48 @@ canvas {
     }
 
     .title {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
 
     .singer {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
     .time {
         position: relative;
-        bottom: 2vw;
+        bottom: 1vw;
     }
 
     .song_time-now {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
     .song_time-total {
-        font-size: 1.5vw;
+        font-size: 1vw;
     }
 
     .visualiser{
-        top: 2.5vw;
+        top: 2vw;
     }
 
     .svg {
-        width: 5vw;
-        height: 5vw;
+        width: 4vw;
+        height: 4vw;
     }
 
     .play {
-        width: 7vw;
-        height: 7vw;
+        width: 6vw;
+        height: 6vw;
     }
 
     .pause {
-        width: 7vw;
-        height: 7vw;
+        width: 6vw;
+        height: 6vw;
     }
 
     .cover {
-        width: 6vw;
-        height: 6vw;
+        width: 5vw;
+        height: 5vw;
         margin-right: 2vw;
     }
     
@@ -342,7 +346,7 @@ canvas {
         height: 10%;
         order: 1;
         position: relative;
-        bottom: 6vw;
+        bottom: 3vw;
         z-index: 2000;
     }
 
@@ -408,11 +412,11 @@ canvas {
     }
 
     .title_text {
-        font-size: 3vw;
+        font-size: 2vw;
     }
 
     .singer_text {
-        font-size: 1.5vw;
+        font-size: 1vw;
         opacity: .5;
     }
 
