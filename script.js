@@ -255,7 +255,7 @@ function layout() {
     }
 }
 layout();
-
+/*
 carousel.addEventListener('wheel', (event) => {
     //console.log(event.deltaY);
     if (event.deltaY < 0) {
@@ -284,7 +284,7 @@ carousel.addEventListener('wheel', (event) => {
     //console.log(ind, carousel_img[ind].dataset.carousel_img, song[ind].dataset.song);
     layout();
 });
-
+*/
 let clientXstart; 
 let clientXend; 
 
