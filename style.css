@@ -265,7 +265,7 @@ canvas {
         width: 80%;
         height: 80%;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .left,
