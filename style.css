@@ -274,7 +274,7 @@ canvas {
     }
 
     .left {
-        height: 45%;
+        height: 35%;
     }
 
     .right {
@@ -360,7 +360,7 @@ canvas {
     .timeControls {
         height: 20%;
         position: relative;
-        bottom: 4vw;
+        bottom: -1vw;
     }
 
     .carousel_img {
