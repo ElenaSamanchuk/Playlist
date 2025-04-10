@@ -354,7 +354,7 @@ canvas {
         height: 45%;
         position: relative;
         bottom: 3vw;
-        display: none;
+        opacity: .6;
     }
 
     .timeControls {
@@ -364,18 +364,20 @@ canvas {
     }
 
     .carousel_img {
-        width: 15vw;
-        height: 15vw;
+        width: 10vw;
+        height: 10vw;
     }
 
     .carousel_img.active {
-        width: 20vw;
-        height: 20vw;
+        width: 15vw;
+        height: 15vw;
     }
 
     .song {
         width: 95%;
         border-radius: 5vw;
+        position: relave;
+        z-index: 1000;
     }
 
     .timeControls {
