@@ -266,9 +266,21 @@ canvas {
     display: none;
 }
 
+@media (min-width: 1600px) {
 
+    .container {
+        height: 80%;
+    }
+    .song {
+       padding: .5vw;
+    }
+    .cover {
+       width: 3vw;
+       height: 3vw;
+    }
+}
 
-@media (min-width: 1599px) {
+@media (min-width: 3000px) {
 
     .right {
         padding-bottom: 1vw !important;
