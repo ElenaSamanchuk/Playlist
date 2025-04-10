@@ -245,6 +245,10 @@ canvas {
 }
 
 @media (min-width: 1400px) {
+
+    .container {
+        height: 80%;
+    }
     .song {
        padding: .5vw;
     }
