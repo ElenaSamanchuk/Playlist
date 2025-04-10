@@ -283,21 +283,21 @@ canvas {
 @media (min-width: 3000px) {
 
     .right {
-        padding-bottom: 1vw !important;
-        overflow: hidden !important;
+        padding-bottom: 1vw;
+        overflow: hidden;
     }
 .title {
-        font-size: 1.1vw !important;
+        font-size: 1.1vw;
     }
     .container {
         height: 80%;
     }
     .song {
-       padding: .5vw !important;
+       padding: .5vw;
     }
     .cover {
-       width: 2.5vw !important;
-       height: 2.5vw !important;
+       width: 2.5vw;
+       height: 2.5vw;
     }
 }
 
