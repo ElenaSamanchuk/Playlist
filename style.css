@@ -272,11 +272,11 @@ canvas {
         height: 80%;
     }
     .song {
-       padding: .3vw;
+       padding: .2vw;
     }
     .cover {
-       width: 2.5vw;
-       height: 2.5vw;
+       width: 2vw;
+       height: 2vw;
     }
 }
 
