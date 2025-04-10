@@ -263,7 +263,7 @@ canvas {
 @media (min-width: 640px) and (max-width: 1200px) {
     .container {
         width: 80%;
-        height: 80%;
+        height: 82%;
         flex-direction: column;
         justify-content: space-between;
     }
