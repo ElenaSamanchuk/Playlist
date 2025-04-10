@@ -276,7 +276,7 @@ canvas {
         height: 80%;
     }
     .song {
-       padding: .5vw;
+       padding: .5vw !important;
     }
     .cover {
        width: 2.5vw !important;
