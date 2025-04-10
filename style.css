@@ -68,7 +68,7 @@ body {
 }
 
 .carousel_img.rotate {
-    animation: rotate 5s linear infinite;
+    animation: rotate 10s linear infinite;
 }
 
 @keyframes rotate {
