@@ -269,14 +269,14 @@ canvas {
 @media (min-width: 3000px) {
 
     .container {
-        height: 85%;
+        height: 80%;
     }
     .song {
-       padding: .5vw;
+       padding: .3vw;
     }
     .cover {
-       width: 3vw;
-       height: 3vw;
+       width: 2.5vw;
+       height: 2.5vw;
     }
 }
 
