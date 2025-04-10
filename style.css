@@ -311,6 +311,11 @@ canvas {
         z-index: -2;
     }
 
+    .gradient-left,
+    .gradient-right {
+         display: none;
+    }
+
     .title {
         font-size: 2vw;
     }
@@ -479,6 +484,11 @@ canvas {
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         z-index: -2;
+    }
+
+    .gradient-left,
+    .gradient-right {
+         display: none;
     }
 
     .title {
