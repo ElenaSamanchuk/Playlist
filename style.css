@@ -269,6 +269,11 @@ canvas {
 
 
 @media (min-width: 1599px) {
+
+    .right {
+        padding-bottom: 1vw !important;
+        overflow: hidden !important;
+    }
 .title {
         font-size: 1.1vw !important;
     }
