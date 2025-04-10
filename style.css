@@ -268,10 +268,7 @@ canvas {
 
 @media (min-width: 1600px) {
 
-    .right {
-        padding-bottom: 1vw;
-        overflow: hidden;
-    }
+    
 
     .container {
         height: 80%;
@@ -280,8 +277,8 @@ canvas {
        padding: .5vw;
     }
     .cover {
-       width: 2.5vw;
-       height: 2.5vw;
+       width: 3vw;
+       height: 3vw;
     }
 }
 
