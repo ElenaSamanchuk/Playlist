@@ -274,7 +274,7 @@ canvas {
     }
 
     .left {
-        height: 35%;
+        height: 40%;
     }
 
     .right {
@@ -351,7 +351,7 @@ canvas {
     }
 
     .carousel {
-        height: 45%;
+        height: 35%;
         position: relative;
         bottom: 3vw;
         opacity: .6;
@@ -360,17 +360,17 @@ canvas {
     .timeControls {
         height: 20%;
         position: relative;
-        bottom: -1vw;
+        bottom: 1vw;
     }
 
     .carousel_img {
-        width: 10vw;
-        height: 10vw;
+        width: 5vw;
+        height: 5vw;
     }
 
     .carousel_img.active {
-        width: 15vw;
-        height: 15vw;
+        width: 10vw;
+        height: 10vw;
     }
 
     .song {
