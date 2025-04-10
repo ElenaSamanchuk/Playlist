@@ -51,6 +51,26 @@ body {
     overflow: hidden;
 }
 
+.gradient-left {
+    height: 100%;
+    width: 20%;
+    background: linear-gradient(90deg, #375d89, #375d8900);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.gradient-right {
+    height: 100%;
+    width: 20%;
+    background: linear-gradient(-90deg, #375d89, #375d8900);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
 .carousel_img {
     width: 17vw;
     height: 17vw;
