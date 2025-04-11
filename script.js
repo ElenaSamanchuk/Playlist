@@ -296,7 +296,7 @@ carousel.addEventListener('touchstart', (event) => {
 carousel.addEventListener('touchend', (event) => {
     //console.log(event.changedTouches[0].clientX);
     clientXend = event.changedTouches[0].clientX;
-    mobSwipe();
+    //mobSwipe();
 });
 
 function mobSwipe() {
