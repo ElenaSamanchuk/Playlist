@@ -472,7 +472,7 @@ canvas {
     }
 
     .block_hidden {
-        display: inline-block;
+        display: none;
         position: absolute;
         top: 0;
         left: 0;
@@ -645,7 +645,7 @@ canvas {
     }
 
     .block_hidden {
-        display: inline-block;
+        display: none;
         position: absolute;
         top: 0;
         left: 0;
